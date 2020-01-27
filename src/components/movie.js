@@ -5,8 +5,10 @@ class Movie extends Component{
     render(){
         return(
             <div>
-                <li>
+                <li className="Movies">
                     <a href={this.props.url}>{this.props.children}</a>
+                    <br>
+                    </br>
                 </li>
             </div>
         )

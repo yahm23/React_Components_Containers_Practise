@@ -41,6 +41,9 @@ class MovieBox extends Component{
                 <div className="box">
                     <h2>Upcoming Film Releases for UK</h2>
                     <MovieList movieData={this.state.movieData}/>
+                    <br></br>
+                    <br></br>
+
                     <ViewMore/>  
                 </div>
             </>
