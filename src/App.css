@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.box{
+  width: 300px;
+  border: 15px solid rgb(127, 180, 177);
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,6 +31,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.
 
 .App-link {
   color: #61dafb;
