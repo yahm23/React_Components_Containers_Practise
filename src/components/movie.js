@@ -4,7 +4,11 @@ class Movie extends Component{
 
     render(){
         return(
-          null  
+            <div>
+                <li>
+                    <a href={this.props.url}>{this.props.children}</a>
+                </li>
+            </div>
         )
     }
 
